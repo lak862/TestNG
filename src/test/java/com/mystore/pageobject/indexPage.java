@@ -21,7 +21,7 @@ public class indexPage {
 
 
 	//identify webelements
-	@FindBy(linkText = "Sign in") 
+	@FindBy(linkText = "Login in")
 	WebElement signIn;
 	
 	@FindBy(xpath="(//a[text()='T-shirts'])[2]")
